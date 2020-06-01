@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/slicknav.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/styleBase.css') }}" type="text/css">
 </head>
 
 <body>
@@ -34,22 +35,22 @@
         <div class="container">
             <div class="logo">
                 <a href="./index.html">
-                    <img src="img/logo.png" alt="">
+                    <img class="logo-main" src="img/invertido-transparente.png" alt="">
                 </a>
             </div>
             <div class="nav-menu">
                 <nav class="mainmenu mobile-menu">
                     <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./about-us.html">About</a></li>
-                        <li><a href="./schedule.html">Schedule</a></li>
-                        <li><a href="./gallery.html">Portfolio</a></li>
-                        <li><a href="./blog.html">Blog</a>
+                        <li style="font-size: 150%;" class="active"><a href="./index.html">Home</a></li>
+                        <li><a style="font-size: 150%;" href="./about-us.html">About</a></li>
+                        <li><a style="font-size: 150%;" href="./schedule.html">Schedule</a></li>
+                        <li><a style="font-size: 150%;" href="./gallery.html">Portfolio</a></li>
+                        <li><a style="font-size: 150%;" href="./blog.html">Blog</a>
                             <ul class="dropdown">
                                 <li><a href="blog-details.html">Blog Details</a></li>
                             </ul>
                         </li>
-                        <li><a href="./contact.html">Contacts</a></li>
+                        <li><a style="font-size: 150%;" href="./contact.html">Contacts</a></li>
                     </ul>
                 </nav>
                 <div class="nav-right search-switch">
