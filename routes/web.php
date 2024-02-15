@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('index', function(){
     return view('inicio.index');   
 });
+
+Route::get('/prueba', 'PruebaController@index');
